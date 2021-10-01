@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+    id 'dev.youshallnotpass' version '0.6.1'
+}
+
+youshallnotpass {
+    offline = true
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.cactoos:cactoos:0.49'
+    implementation 'com.sun.mail:jakarta.mail:1.6.4'
+}
